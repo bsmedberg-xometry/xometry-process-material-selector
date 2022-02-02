@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    /* background-color: #EEE; */
+    padding-right: 280px;
+    position: relative;
+}
+
+.feature {
+    padding-left: 70px;
+}
+
+.feature > h3 {
+    margin: 0 120px 0 -10px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.feature > .buttons {
+    position: absolute;
+    left: 0px;
+    color: #999;
+}
+.feature > .buttons > .button:hover {
+    color: black;
+}
+
+.feature > .context {
+    border: 1px solid #CCC;
+    padding: 4px;
+    width: 280px;
+    position: absolute;
+    right: 0px;
+}
+
+.hidden {
+    visibility: hidden;
+}
